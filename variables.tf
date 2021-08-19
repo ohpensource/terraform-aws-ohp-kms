@@ -48,3 +48,9 @@ variable "enable_key_rotation" {
   default     = true
   description = "Specifies whether key rotation is enabled"
 }
+
+variable "bypass_policy_lockout_safety_check" {
+  type        = bool
+  description = "(Optional) Specifies whether to disable the policy lockout check performed when creating or updating the key's policy."
+  default     = false
+}
