@@ -22,7 +22,7 @@ variable "alias" {
   default     = ""
 }
 
-variable "is_enabled " {
+variable "is_enabled" {
   type        = bool
   description = "(Optional) Specifies whether the key is enabled"
   default     = true
