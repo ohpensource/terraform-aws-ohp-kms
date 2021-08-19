@@ -143,7 +143,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_name"></a> [name](#input\_name) | Name to apply to resources. | `string` | n/a | yes |
+| <a name="input_description"></a> [description](#input\_description) | Name to apply to resources. | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | (Required) Map of tags to apply to repository | `map(any)` | n/a | yes |
 | <a name="input_alias"></a> [alias](#input\_alias) | KMS key alias | `string` | `""` | no |
 | <a name="input_create_alias"></a> [create\_alias](#input\_create\_alias) | Create KMS key alias | `bool` | `true` | no |
