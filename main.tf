@@ -5,9 +5,10 @@ resource "aws_kms_key" "main" {
   customer_master_key_spec = var.customer_master_key_spec
   policy                   = var.kms_policy
   enable_key_rotation      = var.enable_key_rotation
+  is_enabled               = var.is_enabled
 
   tags = merge(var.tags,
-    tomap({ "Name" = var.name })
+    tomap({ "Name" = local.alias })
   )
 }
 

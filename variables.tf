@@ -22,6 +22,12 @@ variable "alias" {
   default     = ""
 }
 
+variable "is_enabled " {
+  type        = bool
+  description = "(Optional) Specifies whether the key is enabled"
+  default     = true
+}
+
 variable "key_usage" {
   description = "Specifies the intended use of the key. Valid values: ENCRYPT_DECRYPT or SIGN_VERIFY"
   default     = "ENCRYPT_DECRYPT"
