@@ -1,5 +1,5 @@
 resource "aws_kms_key" "main" {
-  description              = var.name
+  description              = var.description
   deletion_window_in_days  = var.kms_deletion_window_in_days
   key_usage                = var.key_usage
   customer_master_key_spec = var.customer_master_key_spec
