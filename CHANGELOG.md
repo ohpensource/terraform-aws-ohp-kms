@@ -1,3 +1,9 @@
+# :confetti_ball: 0.1.0 (2022-02-18T16:15:14.523Z)
+- - -
+## :hammer: Features
+* LANZ-1234 update workflows (#4)
+- - -
+- - -
 # :confetti_ball: 0.0.2 (2022-01-20T09:02:48.942Z)
 - - -
 ## :newspaper: Others
