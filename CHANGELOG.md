@@ -1,3 +1,11 @@
+# :confetti_ball: 0.2.0 (2022-02-18T16:20:51.583Z)
+- - -
+## :hammer: Features
+* LANZ-1234 update workflows
+## :newspaper: Others
+* terraform-docs: automated action
+- - -
+- - -
 # :confetti_ball: 0.1.0 (2022-02-18T16:15:14.523Z)
 - - -
 ## :hammer: Features
